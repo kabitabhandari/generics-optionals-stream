@@ -3,6 +3,10 @@ package com.example.useoptionals.generics;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * when we use generics, we could change most of the run time errors to compile time checks!
+ */
+
 public class Basics {
     public static void main(String[] args) {
         List list = new ArrayList<>(5);
