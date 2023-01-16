@@ -14,7 +14,7 @@ public class Basics {
         String bestState = (String) list.get(2); // casting to Sting at run time which is expensive
         System.out.println(bestState);
 
-        String bestState1 = (String) list.get(3); // this error is not found in compie time at all
+        String bestState1 = (String) list.get(3); // this error is not found in compile time at all
         System.out.println(bestState1);
 
 
